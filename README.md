@@ -1,6 +1,6 @@
 # Official Website
 
-This is the official website for New Chapter Technologies, a software development company that specializes in web and mobile applications.
+This is the official website for New Chapter Technology LLC, located in Pinedale, WY, that is mainly focused on software development specializes in web and mobile applications.
 
 ## Table of Contents
 
