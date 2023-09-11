@@ -23,6 +23,8 @@ We welcome contributions to our website! If you would like to contribute, please
 5. Push to the branch (`git push origin feature/your-feature-name`)
 6. Create a new Pull Request
 
+Alternatively, if you have found a bug or have a feature request, please create an issue on our [GitHub repository](https://github.com/newchapter/newchapter.github.io/issues) or email us at info@newchapter.com.
+
 Please make sure to update tests as appropriate.
 
 ## License
