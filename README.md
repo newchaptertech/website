@@ -51,7 +51,6 @@ If you are interested in any of these positions, please send your resume and cov
 
 - Email us at [info@newchapter.tech](mailto:info@newchapter.tech)
 - Address: 432 W Pine St, Pinedale, WY 82941, USA
-- Phone: +1 (307) 231-0637
 
 ## Contributing
 
