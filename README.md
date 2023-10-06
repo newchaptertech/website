@@ -1,3 +1,6 @@
+![New Chapter Technology LLC logo](src/nc_logo.png)
+
+
 # Official Website
 
 This is the official website for New Chapter Technology LLC, located in Pinedale, WY, that is mainly focused on software development specializes in web and mobile applications.
