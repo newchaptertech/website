@@ -1,52 +1,48 @@
-![New Chapter Technology LLC logo](src/nc_logo.png)
-
+<img src="assets/brand/newchapter-logo.svg" alt="New Chapter" width="260">
 
 # Official Website
 
-This is the official website for New Chapter Technology LLC, located in Pinedale, WY, that is mainly focused on software development specializes in web and mobile applications.
+This is the official website of New Chapter Technology LLC — a technology company in Pinedale, WY that builds its own products and partners with teams on AI, training, consulting and security. The site is live at [newchapter.tech](https://newchapter.tech).
 
 ## Table of Contents
 
 - [About Us](#about-us)
+- [Products](#products)
 - [Services](#services)
 - [Jobs](#jobs)
 - [Contact](#contact)
+- [Development](#development)
+- [Brand assets](#brand-assets)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## About Us
 
-New Chapter is a technology company that specializes in creating innovative solutions for businesses. Our mission is to help our clients achieve their goals through the use of cutting-edge technology and exceptional customer service. With a team of experienced developers, designers, and project managers, we are dedicated to delivering high-quality products that exceed our clients' expectations.
+Every company has a next chapter — we help you write it. New Chapter builds its own products, starting with LangX, and brings the same craft to client work: AI solutions, AI training, technology consulting, security and app development.
 
-At New Chapter, we believe that technology should be accessible to everyone. That's why we work closely with our clients to understand their unique needs and develop solutions that are tailored to their specific requirements. Whether you need a custom web application, a mobile app, or a complete software solution, we have the expertise and experience to deliver results.
+We love open source and actively contribute to the community. LangX itself is 100% open source.
 
-Our team is passionate about technology and committed to staying up-to-date with the latest trends and developments in the industry. We are constantly exploring new technologies and techniques to ensure that we are providing our clients with the best possible solutions.
+## Products
 
-In addition, we love open-source and actively contribute to the community. We believe that open-source software is a powerful tool for innovation and collaboration, and we are committed to giving back to the community that has given us so much.
+- **LangX** — a free, open-source language exchange app that connects learners with native speakers, with voice messages, smart partner filters and an AI Language Copilot. Available on the [App Store](https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141), [Google Play](https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange) and the [web](https://langx.io).
+- More products are in development.
 
 ## Services
 
-New Chapter Technology LLC specializes in web and mobile application development. Our services include:
-
-- Custom web application development
-- Mobile app development
-- Software consulting
-- UI/UX design
-- Project management
-- Cloud computing solutions
-
-We work closely with our clients to understand their unique needs and develop solutions that are tailored to their specific requirements. Whether you need a simple website or a complex software solution, we have the expertise and experience to deliver results.
-
-We also offer cloud computing solutions, including AWS and Azure, to help our clients scale their applications and reduce costs.
+- AI solutions — custom assistants, automations and models trained on your data
+- AI training for teams
+- Personalized (one-to-one) AI training
+- Technology consulting
+- Security
+- App & web development
 
 ## Jobs
 
 We are currently hiring for the following positions:
 
-- Full Stack Developer
-- Mobile App Developer
-- UI/UX Designer
-- Project Manager
+- Senior React Native Engineer — Product · LangX (Remote, full-time)
+- AI / ML Engineer — AI Solutions (Remote, full-time)
+- Security Consultant — Security (Remote, contract)
 
 If you are interested in any of these positions, please send your resume and cover letter to [jobs@newchapter.tech](mailto:jobs@newchapter.tech).
 
@@ -54,6 +50,44 @@ If you are interested in any of these positions, please send your resume and cov
 
 - Email us at [info@newchapter.tech](mailto:info@newchapter.tech)
 - Address: 432 W Pine St, Pinedale, WY 82941, USA
+
+## Development
+
+The site is plain, dependency-free HTML, CSS and a few lines of JavaScript, served by GitHub Pages (`.nojekyll` turns off Jekyll processing). To preview it locally:
+
+```sh
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
+
+| Path | What it is |
+| --- | --- |
+| `index.html` | The homepage |
+| `404.html` | The "page not found" page served by GitHub Pages |
+| `assets/css/site.css` | All styles, including the self-hosted `@font-face` rules |
+| `assets/js/site.js` | Mobile menu and footer year |
+| `assets/fonts/` | Instrument Serif and Instrument Sans (SIL Open Font License 1.1) |
+| `assets/brand/` | Logo, mark and app icons |
+| `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `site.webmanifest` | Browser and device icons |
+| `og-image.png` | Social sharing image (1200 × 630) |
+
+## Brand assets
+
+The logo pairs the "Ribbon N" mark — an N whose right stroke is a bookmark ribbon, marking where the next chapter begins — with a wordmark set in Instrument Serif.
+
+| Asset | File |
+| --- | --- |
+| Logo (for light backgrounds) | `assets/brand/newchapter-logo.svg` |
+| Logo (for dark backgrounds) | `assets/brand/newchapter-logo-reversed.svg` |
+| Mark | `assets/brand/newchapter-mark.svg`, `assets/brand/newchapter-mark-reversed.svg` |
+| App icon | `assets/brand/newchapter-app-icon.svg`, `assets/brand/icon-512.png` |
+
+| Color | Hex |
+| --- | --- |
+| Paper | `#FAFAF7` |
+| Ink | `#16181D` |
+| Graphite | `#5B5F68` |
+| Vermilion | `#C8341A` (`#E2553A` / `#FF8A70` on dark backgrounds) |
 
 ## Contributing
 
@@ -66,10 +100,8 @@ We welcome contributions to our website! If you would like to contribute, please
 5. Push to the branch (`git push origin feature/your-feature-name`)
 6. Create a new Pull Request
 
-Alternatively, if you have found a bug or have a feature request, please create an issue on our [GitHub repository](https://github.com/newchaptertech/website/issues) or email us at info@newchapter.com.
-
-Please make sure to update tests as appropriate.
+Alternatively, if you have found a bug or have a feature request, please create an issue on our [GitHub repository](https://github.com/newchaptertech/website/issues) or email us at info@newchapter.tech.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE). The Instrument Serif and Instrument Sans fonts in `assets/fonts/` are licensed under the SIL Open Font License 1.1.
