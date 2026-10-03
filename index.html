@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>New Chapter — Products, AI, Training &amp; Security</title>
-  <meta name="description" content="New Chapter is a technology company in Pinedale, Wyoming. We build our own products, starting with LangX, and help teams with AI solutions, AI training, technology consulting and security.">
+  <title>New Chapter Technology | AI, Training, Software &amp; Security</title>
+  <meta name="description" content="New Chapter Technology builds LangX and helps teams adopt AI with custom AI solutions, AI training, technology consulting, security and app development.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://newchapter.tech/">
   <meta name="theme-color" content="#fafaf7">
+  <meta name="application-name" content="New Chapter">
+  <meta name="apple-mobile-web-app-title" content="New Chapter">
 
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -14,15 +17,21 @@
   <link rel="manifest" href="site.webmanifest">
 
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="New Chapter">
   <meta property="og:title" content="New Chapter — Every company has a next chapter">
   <meta property="og:description" content="We build our own products, starting with LangX, and partner with teams on AI solutions, AI training, technology consulting and security.">
   <meta property="og:url" content="https://newchapter.tech/">
   <meta property="og:image" content="https://newchapter.tech/og-image.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="New Chapter: every company has a next chapter. We help you write it.">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="New Chapter — Every company has a next chapter">
+  <meta name="twitter:description" content="We build our own products, starting with LangX, and partner with teams on AI solutions, AI training, technology consulting and security.">
+  <meta name="twitter:image" content="https://newchapter.tech/og-image.png">
+  <meta name="twitter:image:alt" content="New Chapter: every company has a next chapter. We help you write it.">
 
   <link rel="preload" href="assets/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -33,21 +42,107 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "New Chapter Technology LLC",
-    "alternateName": "New Chapter",
-    "url": "https://newchapter.tech/",
-    "logo": "https://newchapter.tech/assets/brand/icon-512.png",
-    "email": "info@newchapter.tech",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "432 W Pine St",
-      "addressLocality": "Pinedale",
-      "addressRegion": "WY",
-      "postalCode": "82941",
-      "addressCountry": "US"
-    },
-    "sameAs": ["https://github.com/newchaptertech"]
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://newchapter.tech/#organization",
+        "name": "New Chapter",
+        "legalName": "New Chapter Technology LLC",
+        "alternateName": ["New Chapter Technology", "New Chapter Technology LLC"],
+        "url": "https://newchapter.tech/",
+        "slogan": "Every company has a next chapter. We help you write it.",
+        "description": "New Chapter Technology is a technology company in Pinedale, Wyoming. It builds its own products, starting with the language exchange app LangX, and helps organizations with AI solutions, AI training, personalized AI training, technology consulting, security and app & web development.",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://newchapter.tech/#logo",
+          "url": "https://newchapter.tech/assets/brand/icon-512.png",
+          "contentUrl": "https://newchapter.tech/assets/brand/icon-512.png",
+          "width": 512,
+          "height": 512,
+          "caption": "New Chapter"
+        },
+        "image": { "@id": "https://newchapter.tech/#logo" },
+        "email": "info@newchapter.tech",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "432 W Pine St",
+          "addressLocality": "Pinedale",
+          "addressRegion": "WY",
+          "postalCode": "82941",
+          "addressCountry": "US"
+        },
+        "contactPoint": [
+          { "@type": "ContactPoint", "contactType": "sales", "email": "info@newchapter.tech", "availableLanguage": "English" },
+          { "@type": "ContactPoint", "contactType": "recruiting", "email": "jobs@newchapter.tech", "availableLanguage": "English" }
+        ],
+        "sameAs": ["https://github.com/newchaptertech"],
+        "knowsAbout": [
+          "Artificial intelligence",
+          "Generative AI",
+          "AI training",
+          "Machine learning",
+          "Cybersecurity",
+          "Technology consulting",
+          "Mobile app development",
+          "Web development",
+          "Language learning"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Solutions", "description": "Custom assistants, automations and models trained on your data, designed around your real workflows.", "provider": { "@id": "https://newchapter.tech/#organization" } } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Training", "description": "Workshops and programs that take whole teams from curious to confident with AI, using tasks from their own work.", "provider": { "@id": "https://newchapter.tech/#organization" } } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Personalized AI Training", "description": "One-to-one learning paths built around a single person's role, tools and goals.", "provider": { "@id": "https://newchapter.tech/#organization" } } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Technology Consulting", "description": "Architecture, roadmaps and build-vs-buy decisions from a team that ships its own products.", "provider": { "@id": "https://newchapter.tech/#organization" } } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Security", "description": "Audits, hardening and secure-by-design practices for apps, cloud infrastructure and AI systems.", "provider": { "@id": "https://newchapter.tech/#organization" } } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "App & Web Development", "description": "iOS, Android and web products, from the first prototype to launch and every release after.", "provider": { "@id": "https://newchapter.tech/#organization" } } }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://newchapter.tech/#website",
+        "url": "https://newchapter.tech/",
+        "name": "New Chapter",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://newchapter.tech/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://newchapter.tech/#webpage",
+        "url": "https://newchapter.tech/",
+        "name": "New Chapter Technology | AI, Training, Software & Security",
+        "description": "New Chapter Technology builds LangX and helps teams adopt AI with custom AI solutions, AI training, technology consulting, security and app development.",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://newchapter.tech/#website" },
+        "about": { "@id": "https://newchapter.tech/#organization" },
+        "mentions": { "@id": "https://newchapter.tech/#langx" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://newchapter.tech/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://newchapter.tech/#langx",
+        "name": "LangX",
+        "alternateName": "LangX: Practice, Learn, Succeed",
+        "url": "https://langx.io/",
+        "description": "A free, 100% open-source language exchange app that connects language learners with native speakers for real conversations, with voice messages, smart partner filters and an AI Language Copilot.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "iOS, Android, Web",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "publisher": { "@id": "https://newchapter.tech/#organization" },
+        "sameAs": [
+          "https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141",
+          "https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange"
+        ]
+      }
+    ]
   }
   </script>
 </head>

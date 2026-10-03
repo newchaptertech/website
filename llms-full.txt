@@ -1,0 +1,80 @@
+# New Chapter Technology — full site content
+
+> The complete text of https://newchapter.tech in Markdown, for language models and other tools. New Chapter Technology LLC ("New Chapter") is a technology company in Pinedale, Wyoming, USA that builds its own products, starting with LangX, and partners with teams on AI solutions, AI training, technology consulting and security.
+
+Source: https://newchapter.tech/
+Summary: https://newchapter.tech/llms.txt
+
+---
+
+## Every company has a next chapter. We help you write it.
+
+Technology company · Pinedale, Wyoming
+
+We build our own products — starting with LangX — and partner with teams on AI solutions, AI training, technology consulting and security.
+
+Contents:
+
+- I. LangX & new products
+- II. AI, training & consulting
+- III. Security & development
+- IV. Open positions
+
+---
+
+## Chapter I — Products
+
+### LangX (live)
+
+"Practice, learn, succeed."
+
+Our first chapter: a language exchange app that pairs learners with native speakers for real conversations — with voice messages, smart partner filters and an AI Language Copilot. Free, and 100% open source.
+
+- Website and web app: https://langx.io
+- iOS (App Store): https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141
+- Android (Google Play): https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange
+
+### Forthcoming
+
+- In development: a new product is on the way — announcing soon.
+- In planning: the next chapter is already being drafted.
+
+---
+
+## Chapters II–III — Services
+
+What we can write together.
+
+1. **AI Solutions** — Custom assistants, automations and models trained on your data — designed around your real workflows.
+2. **AI Training** — Workshops and programs that take whole teams from curious to confident, using tasks from your own work.
+3. **Personalized AI Training** — One-to-one learning paths built around a single person's role, tools and goals — from founders to engineers.
+4. **Technology Consulting** — Architecture, roadmaps and build-vs-buy decisions from a team that ships its own products.
+5. **Security** — Audits, hardening and secure-by-design practices for apps, cloud infrastructure and AI systems.
+6. **App & Web Development** — iOS, Android and web products, from the first prototype to launch day and every release after.
+
+---
+
+## Chapter IV — Careers
+
+Write the next chapter with us. Don't see your role? Write to jobs@newchapter.tech.
+
+Open positions:
+
+- **Senior React Native Engineer** — Product · LangX — Remote · Full-time
+- **AI / ML Engineer** — AI Solutions — Remote · Full-time
+- **Security Consultant** — Security — Remote · Contract
+
+To apply, email jobs@newchapter.tech with the role name in the subject.
+
+---
+
+## Contact
+
+Let's write your next chapter. Tell us where you are and where you want to go — a product idea, an AI rollout, a security review or a team that needs training.
+
+- New business: info@newchapter.tech
+- Careers: jobs@newchapter.tech
+- Office: 432 W Pine St, Pinedale, WY 82941, USA
+- GitHub: https://github.com/newchaptertech
+
+© New Chapter Technology LLC

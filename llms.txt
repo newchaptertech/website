@@ -1,0 +1,42 @@
+# New Chapter Technology
+
+> New Chapter Technology LLC ("New Chapter") is a technology company based in Pinedale, Wyoming, USA. It builds its own software products, starting with LangX, a free and open-source language exchange app, and helps organizations adopt AI through custom AI solutions, AI training for teams, personalized one-to-one AI training, technology consulting, security services, and app & web development.
+
+Key facts:
+
+- Legal name: New Chapter Technology LLC (brand: New Chapter)
+- Website: https://newchapter.tech
+- Office: 432 W Pine St, Pinedale, WY 82941, USA
+- New business: info@newchapter.tech
+- Careers: jobs@newchapter.tech
+- GitHub: https://github.com/newchaptertech
+- Slogan: "Every company has a next chapter. We help you write it."
+
+## Products
+
+- [LangX](https://langx.io): Free, 100% open-source language exchange app that connects language learners with native speakers for real conversation practice. Features voice messages for pronunciation practice, smart partner filters and an AI Language Copilot that suggests corrections. Available on iOS, Android and the web. Tagline: "Practice, learn, succeed."
+- [LangX on the App Store](https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141): iOS app.
+- [LangX on Google Play](https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange): Android app.
+- More products are in development and have not been announced yet.
+
+## Services
+
+- [AI Solutions](https://newchapter.tech/#services): Custom AI assistants, automations and models trained on a client's own data, designed around real workflows.
+- [AI Training](https://newchapter.tech/#services): Workshops and programs that take whole teams from curious to confident with AI, using tasks from their own work.
+- [Personalized AI Training](https://newchapter.tech/#services): One-to-one learning paths built around a single person's role, tools and goals, from founders to engineers.
+- [Technology Consulting](https://newchapter.tech/#services): Architecture, roadmaps and build-vs-buy decisions from a team that ships its own products.
+- [Security](https://newchapter.tech/#security): Security audits, hardening and secure-by-design practices for apps, cloud infrastructure and AI systems.
+- [App & Web Development](https://newchapter.tech/#services): iOS, Android and web products, from the first prototype to launch and every release after.
+
+## Careers
+
+- [Open positions](https://newchapter.tech/#careers): Current openings are listed on the homepage. Apply by email to jobs@newchapter.tech.
+
+## Contact
+
+- [Start a project](https://newchapter.tech/#contact): Email info@newchapter.tech with a product idea, an AI rollout, a security review or a team that needs training.
+
+## Optional
+
+- [Full site content in Markdown](https://newchapter.tech/llms-full.txt): The complete text of newchapter.tech in one file.
+- [Website source code](https://github.com/newchaptertech/website): The public repository for this website.

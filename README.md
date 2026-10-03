@@ -70,6 +70,10 @@ python3 -m http.server 8000
 | `assets/brand/` | Logo, mark and app icons |
 | `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `site.webmanifest` | Browser and device icons |
 | `og-image.png` | Social sharing image (1200 × 630) |
+| `robots.txt`, `sitemap.xml` | Crawler rules (search engines and AI crawlers allowed) and the sitemap |
+| `llms.txt`, `llms-full.txt` | Plain-text summary and full Markdown copy of the site for LLMs ([llms.txt](https://llmstxt.org) convention) |
+
+When you change the copy in `index.html`, update `llms-full.txt` (and `llms.txt` if products, services or contacts change) and the JSON-LD block in `index.html`'s `<head>` so search engines and AI assistants see the same facts as visitors.
 
 ## Brand assets
 
